@@ -13,7 +13,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/prospectos")
-@CrossOrigin("http://localhost")
+@CrossOrigin("https://emonics.000webhostapp.com")
 public class UserController extends GenericController<User, UserDAO>{
 
     @Autowired
